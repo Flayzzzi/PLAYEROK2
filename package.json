@@ -3,11 +3,11 @@
   "name": "playerok-control",
   "version": "0.1.0",
   "description": "Telegram control panel scaffold for managing your own Playerok workflows",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js",
-    "check": "node --check index.js && node --check bot.js && node --check db.js && node --check pluginManager.js"
+    "start": "node src/index.js",
+    "check": "node --check src/index.js && node --check src/bot.js && node --check src/db.js && node --check src/pluginManager.js"
   },
   "engines": {
     "node": ">=20"
